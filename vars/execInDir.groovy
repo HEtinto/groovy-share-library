@@ -4,7 +4,7 @@
  * @param command 要执行的 shell 命令
  * @param dirPath 工作目录的路径
  */
-def execInDir(String command, String dirPath) {
+def call(String command, String dirPath) {
     println "📂 Working directory: ${dirPath}"
     println "▶️ Executing: ${command}"
 
